@@ -1,0 +1,21 @@
+{
+  "name": "decidata",
+  "version": "1.0.0",
+  "description": "Decidata - Bootstrap4 Coming Soon Template",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/decidata.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://github.com/yourusername/decidata#readme"
+}

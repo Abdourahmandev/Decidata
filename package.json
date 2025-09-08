@@ -2,16 +2,10 @@
   "name": "decidata",
   "version": "1.0.0",
   "description": "Decidata - Bootstrap4 Coming Soon Template",
-  "main": "gulpfile.js",
-  "dependencies": {
-    "gulp": "^3.9.1",
-    "gulp-sass": "^2.3.2"
-  },
-  "devDependencies": {},
+  "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "echo \"Build completed - static site ready for deployment\"",
-    "start": "echo \"Static site - no server needed\""
+    "build": "echo 'No build needed - static site ready'",
+    "start": "echo 'Static site deployment complete'"
   },
   "repository": {
     "type": "git",

@@ -2,7 +2,7 @@ services:
   - type: web
     name: decidata-website
     env: static
-    buildCommand: npm install && npm run build
+    buildCommand: echo "Static site - no build needed"
     staticPublishPath: ./
     domains:
       - decidata.onrender.com

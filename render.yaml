@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: decidata-website
+    env: static
+    buildCommand: npm install && npm run build
+    staticPublishPath: ./
+    domains:
+      - decidata.onrender.com
+    headers:
+      - path: /*
+        name: Cache-Control
+        value: public, max-age=86400
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html
